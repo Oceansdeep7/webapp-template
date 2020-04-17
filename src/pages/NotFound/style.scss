@@ -1,4 +1,4 @@
-@import "../utils/commonColor";
+@import "../../utils/commonColor";
 
 .not-found {
   display: flex;
@@ -8,16 +8,27 @@
   line-height: 128px;
 
   .state {
+    display: inline-block;
+    padding-right: 64px;
     color: $borderColor;
     font-size: 64px;
-    padding-right: 64px;
-    border-right: 1px solid $thinColor;
-
+    border: 1px solid white;
+    animation: state .5s alternate infinite;
   }
 
   .text {
+    padding-left: 64px;
     color: $baseColor;
     font-size: 36px;
-    padding-left: 64px;
   }
 }
+
+@keyframes state {
+  from {
+    box-shadow: inset -3px 0 0 -1px $thinColor;
+  }
+  to {
+    box-shadow: inset -3px 0 0 -1px transparent;
+  }
+}
+

@@ -1,6 +1,6 @@
 import React from "react"
 import useTitle from "../../hooks/useTitle";
-import './style.scss'
+import "./style.scss"
 
 export default function NotFound(props) {
   useTitle("404");
