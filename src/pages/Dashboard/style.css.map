@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAEA,UAAU;EACR,OAAO,EAAC,IAAI;EACZ,MAAM,EAAE,KAAK;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,SAAS,EAAE,IAAI;EACf,KAAK,ECRI,IAAI",
-"sources": ["style.scss","../utils/commonColor.scss"],
-"names": [],
-"file": "style.css"
-}

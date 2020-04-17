@@ -1,0 +1,23 @@
+@import "../utils/commonColor";
+
+.not-found {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  line-height: 128px;
+
+  .state {
+    color: $borderColor;
+    font-size: 64px;
+    padding-right: 64px;
+    border-right: 1px solid $thinColor;
+
+  }
+
+  .text {
+    color: $baseColor;
+    font-size: 36px;
+    padding-left: 64px;
+  }
+}

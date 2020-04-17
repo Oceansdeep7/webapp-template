@@ -6,8 +6,8 @@ import {
   Redirect
 } from "react-router-dom";
 import reducer from "./custom-redux/reducer";
-import Store from './custom-redux/store'
-import "./app.scss"
+import Store from "./custom-redux/store";
+import "./app.scss";
 
 const Dashboard = lazy(() => import('./pages/Dashboard'));
 const Error = lazy(() => import('./pages/Error'));
