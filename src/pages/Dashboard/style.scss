@@ -1,0 +1,10 @@
+@import "../utils/commonColor";
+
+.dashboard{
+  display:flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  color:$baseColor;
+}
