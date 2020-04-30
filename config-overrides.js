@@ -1,6 +1,7 @@
-const {override, fixBabelImports, addPostcssPlugins} = require('customize-cra');
+const {override, fixBabelImports, addPostcssPlugins, addBabelPlugin} = require('customize-cra');
 
 module.exports = override(
+  addBabelPlugin('@babel/plugin-proposal-optional-chaining'),
   fixBabelImports('import', {
     libraryName: 'antd-mobile',
     style: 'css',
